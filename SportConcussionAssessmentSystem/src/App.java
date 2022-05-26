@@ -19,8 +19,8 @@ public class App {
 	public static final String ANSI_GREEN = "\u001B[32m";
 	
 	public static final String strNoDiff = ANSI_GREEN + "No difference" + ANSI_RESET;
-	public static final String strUnsure = ANSI_GREEN + "No difference" + ANSI_RESET;
-	public static final String strVeryDiff = ANSI_GREEN + "No difference" + ANSI_RESET;
+	public static final String strUnsure = ANSI_YELLOW + "Unsure" + ANSI_RESET;
+	public static final String strVeryDiff = ANSI_RED + "Very Different" + ANSI_RESET;
 	
 
 	
